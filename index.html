@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#142c34">
+  <meta name="description" content="葉瑋琳的教育服務與AI教育應用精選作品：TAA全國性服務採用、師資生實務情境培力、PACE Coach與互動式情境判斷評量。">
+  <meta property="og:title" content="葉瑋琳｜教育服務採用・教師培力・AI教育應用">
+  <meta property="og:description" content="從全國性師資培育服務，到教學體驗與可驗證的AI教育應用。">
+  <meta property="og:type" content="website">
+  <title>葉瑋琳｜教育服務採用・教師培力・AI教育應用</title>
+  <style>
+    :root{--ink:#172b35;--deep:#142d36;--deep2:#213f47;--teal:#346f70;--line:#d9dfdc;--cream:#f5f5f0;--paper:#fffefa;--muted:#586b71;--ochre:#dbb378;--white:#fff;--max:1100px}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth;scroll-padding-top:85px}
+    body{margin:0;color:var(--ink);background:var(--cream);font-family:"Noto Sans TC","Microsoft JhengHei","PingFang TC",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.8;font-size:16px}
+    a{color:inherit}a:focus-visible,button:focus-visible{outline:3px solid #d29d52;outline-offset:4px}
+    .skip{position:absolute;top:-100px;left:15px;z-index:300;padding:.5rem 1rem;background:#fff}.skip:focus{top:10px}
+    .wrap{max-width:var(--max);width:min(100% - 56px,var(--max));margin:auto}
+    .nav{position:sticky;top:0;background:rgba(250,250,247,.96);border-bottom:1px solid var(--line);z-index:20;backdrop-filter:blur(16px)}
+    .nav-in{min-height:75px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+    .logo{text-decoration:none;display:flex;align-items:baseline;gap:14px;font-weight:800;letter-spacing:.02em;font-size:1.06rem;white-space:nowrap}
+    .logo span{font-size:.61rem;color:var(--teal);font-weight:750;letter-spacing:.19em}
+    .nav-links{display:flex;align-items:center;gap:29px;font-size:.84rem;font-weight:700;color:var(--muted)}
+    .nav-links a{text-decoration:none}.nav-links a:hover{color:var(--teal)}
+    .nav-links .last{border:1px solid var(--teal);color:var(--teal);border-radius:7px;padding:7px 13px}
+    .eyebrow{color:var(--teal);font-size:.72rem;font-weight:850;letter-spacing:.17em}
+    .hero{background:var(--deep);color:#fff;position:relative;overflow:hidden}
+    .hero:before{content:"";position:absolute;pointer-events:none;width:560px;height:560px;border:1px solid rgba(255,255,255,.12);border-radius:50%;right:-130px;top:-260px;box-shadow:0 0 0 110px rgba(255,255,255,.026),0 0 0 240px rgba(255,255,255,.018)}
+    .hero-in{position:relative;display:grid;grid-template-columns:1.15fr .85fr;align-items:center;gap:7%;padding:112px 0 102px}
+    .hero .eyebrow{color:#b7d5c8}
+    h1{font-size:clamp(2.2rem,4.2vw,3.65rem);letter-spacing:-.04em;line-height:1.35;margin:26px 0 22px;font-weight:850}
+    .hero-lead{color:#d8e3e2;max-width:34rem;font-size:1rem;line-height:1.95;margin:0}
+    .hero-actions{display:flex;flex-wrap:wrap;gap:11px;margin-top:32px}
+    .btn{display:inline-flex;text-decoration:none;align-items:center;justify-content:center;gap:9px;border-radius:7px;padding:12px 20px;min-height:46px;font-size:.88rem;font-weight:760;transition:transform .15s,background .15s}
+    .btn:hover{transform:translateY(-2px)}.btn-solid{background:#d9ba8d;color:#142d36}.btn-outline{border:1px solid #698385;color:#fff}.btn-outline:hover{background:#244852}
+    .overview-panel{background:#fff;color:var(--ink);box-shadow:0 26px 80px rgba(5,20,30,.2);border-radius:8px;padding:29px 28px 24px;transform:rotate(1deg)}
+    .overview-panel .panel-top{font-weight:800;font-size:.7rem;letter-spacing:.15em;color:var(--teal);display:flex;align-items:center;gap:12px}
+    .overview-panel .panel-top:after{content:"";height:1px;flex:1;background:var(--line)}
+    .overview-panel .focus{font-size:1.2rem;line-height:1.55;font-weight:780;margin:18px 0 12px;letter-spacing:-.01em}
+    .overview-panel p{font-size:.85rem;color:var(--muted);margin:0 0 16px}
+    .work-map{display:flex;flex-direction:column;gap:9px}
+    .work-map span{font-weight:700;font-size:.78rem;border-left:3px solid var(--teal);background:#f0f4f1;padding:7px 11px}
+    .numbers{background:var(--paper);border-bottom:1px solid var(--line)}
+    .number-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;padding:34px 0 27px}
+    .number-grid>div{border-right:1px solid var(--line);padding-right:20px}.number-grid>div:last-child{border-right:0}
+    .metric{font-size:clamp(1.5rem,2.8vw,2.24rem);line-height:1.25;font-weight:850;letter-spacing:-.035em;font-variant-numeric:tabular-nums}
+    .metric small{font-size:.65em;color:var(--teal)}
+    .number-grid p{font-size:.78rem;color:var(--muted);line-height:1.55;margin:9px 0 0}
+    .data-note{font-size:.71rem;color:var(--muted);padding:0 0 21px;line-height:1.75}
+    .section-intro{padding:91px 0 34px}
+    h2{font-size:clamp(1.9rem,3.6vw,2.72rem);line-height:1.4;letter-spacing:-.025em;margin:13px 0 12px;font-weight:850}
+    .section-intro p{color:var(--muted);max-width:760px;margin:0;line-height:1.95}
+    .cases{padding-bottom:94px}
+    .case{display:grid;grid-template-columns:.94fr 1.06fr;gap:5%;align-items:start;background:var(--paper);border:1px solid var(--line);border-radius:9px;padding:37px;margin-top:20px;box-shadow:0 9px 35px rgba(16,46,51,.026)}
+    .case:nth-child(even) .case-visual{order:2}.case:nth-child(even) .case-text{order:1}
+    .case-visual{min-width:0}
+    .case-visual a{display:block;overflow:hidden;border:1px solid #d3dbdc;border-radius:5px;box-shadow:0 8px 24px rgba(20,40,48,.07)}
+    .case-visual img{display:block;width:100%;height:auto;transition:transform .22s}.case-visual a:hover img{transform:scale(1.024)}
+    .visual-hint{margin:10px 0 0;font-size:.71rem;color:var(--muted)}
+    .case-eyebrow{font-weight:800;font-size:.72rem;color:var(--teal);letter-spacing:.095em;display:flex;align-items:center;justify-content:space-between;gap:10px}
+    .status{border:1px solid #c4d4d1;background:#eff5f1;color:#366765;padding:3px 8px;border-radius:4px;font-size:.67rem;white-space:nowrap;letter-spacing:0}
+    h3{font-size:1.5rem;line-height:1.48;letter-spacing:-.02em;margin:14px 0 13px}
+    .case-text>p{font-size:.9rem;color:#465e64;margin:0 0 19px;line-height:1.95}
+    .detail-grid{border-top:1px solid var(--line);padding-top:16px;display:grid;gap:13px}
+    .detail-row{display:grid;grid-template-columns:78px 1fr;gap:14px;align-items:start}
+    .detail-row span{font-size:.76rem;font-weight:850;color:var(--teal);padding-top:2px}
+    .detail-row p{font-size:.84rem;line-height:1.85;margin:0}
+    .inline-links{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}
+    .inline-links a{display:inline-flex;text-decoration:none;font-weight:760;font-size:.82rem;color:var(--teal);border-bottom:1px solid var(--teal);padding-bottom:2px}
+    .more{background:#e5ebe6;border-top:1px solid #d6dfdb;border-bottom:1px solid #d6dfdb;padding:78px 0}
+    .more h2{margin-bottom:32px}
+    .insights{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}
+    .insight{padding:26px;background:var(--paper);border:1px solid #dbe1df;border-radius:6px}
+    .insight .n{font-weight:850;font-size:.78rem;color:var(--teal)}
+    .insight h3{font-size:1.05rem;margin:9px 0 9px;line-height:1.45}
+    .insight p{font-size:.83rem;color:var(--muted);margin:0;line-height:1.85}
+    .boundary{padding:70px 0 85px}
+    .boundary .wrap{max-width:900px}
+    .boundary strong{font-size:1.13rem}
+    .boundary p{color:var(--muted);margin:11px 0 0;font-size:.88rem;line-height:1.95}
+    footer{background:var(--deep);color:#fff;padding:51px 0}
+    footer .wrap{display:flex;align-items:center;justify-content:space-between;gap:25px}
+    footer strong{font-size:1.22rem}
+    footer p{font-size:.82rem;color:#bdd0cd;margin:5px 0 0}
+    footer a{color:#e6c692;text-decoration:none;font-size:.89rem;font-weight:700;overflow-wrap:anywhere}
+    @media(max-width:860px){.hero-in{grid-template-columns:1fr;padding:75px 0 66px}.overview-panel{max-width:580px;transform:none}.case{grid-template-columns:1fr;gap:24px}.case:nth-child(even) .case-visual,.case:nth-child(even) .case-text{order:initial}.number-grid{grid-template-columns:repeat(2,1fr)}.number-grid>div:nth-child(2){border-right:0}.number-grid>div:nth-child(-n+2){border-bottom:1px solid var(--line);padding-bottom:18px}.insights{grid-template-columns:1fr}.nav-links{gap:17px}}
+    @media(max-width:560px){body{font-size:15px}.wrap{width:min(100% - 34px,var(--max))}.nav-in{min-height:66px}.logo{font-size:.97rem;gap:8px}.logo span{font-size:.53rem}.nav-links{gap:14px;font-size:.74rem}.nav-links .last{display:none}.hero-in{padding:56px 0 58px}h1{font-size:2.35rem;margin:17px 0}.hero-lead{font-size:.94rem}.overview-panel{padding:20px}.numbers .number-grid{gap:16px;padding-top:25px}.number-grid>div{padding-right:9px}.metric{font-size:1.66rem}.section-intro{padding-top:60px}.case{padding:19px;margin-top:15px}.case h3{font-size:1.33rem}.detail-row{grid-template-columns:68px 1fr;gap:8px}.more{padding:54px 0}.insight{padding:21px}.boundary{padding:56px 0}footer .wrap{align-items:flex-start;flex-direction:column;gap:15px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+  </style>
+</head>
+<body>
+  <a class="skip" href="#main">跳至主要內容</a>
+  <nav class="nav" aria-label="主要導覽"><div class="wrap nav-in">
+    <a class="logo" href="#top">葉瑋琳 <span>SELECTED WORKS / 2026</span></a>
+    <div class="nav-links"><a href="#works">精選作品</a><a href="#approach">工作方法</a><a class="last" href="#contact">聯絡</a></div>
+  </div></nav>
+  <main id="main">
+    <header class="hero" id="top"><div class="wrap hero-in">
+      <div>
+        <div class="eyebrow">EDUCATION · SERVICE ADOPTION · AI APPLICATIONS</div>
+        <h1>從全國性服務導入，<br>到教育現場支持設計。</h1>
+        <p class="hero-lead">自2017年起主責教育部委託之師資生潛能測驗系統（TAA）全國性計畫，長期處理師培校的採用需求、服務支持與成果應用；近年進一步將教育實務經驗轉化為參與式課程、AI支持服務及互動評量原型。</p>
+        <div class="hero-actions"><a class="btn btn-solid" href="#works">檢視四項作品 <span aria-hidden="true">↘</span></a><a class="btn btn-outline" href="https://chat.smartreading.net/SRAgent/OpenWebUIChatSession3.aspx?topicId=9&amp;questId=1&amp;culture=zh-TW" target="_blank" rel="noopener noreferrer">PACE實際操作 <span aria-hidden="true">↗</span></a></div>
+      </div>
+      <div class="overview-panel" aria-label="工作範圍摘要">
+        <div class="panel-top">WORK SCOPE</div>
+        <div class="focus">讓專業成果能被採用，<br>讓使用經驗成為下一步的設計依據。</div>
+        <p>四份案例，對應四種不同工作責任。分清正式服務、實際授課與研發原型，不將模擬測試視為實際使用成效。</p>
+        <div class="work-map"><span>01　TAA｜服務採用與跨校整合</span><span>02　教師培力｜參與式情境課程</span><span>03　PACE｜教育現場AI支持</span><span>04　互動式SJT｜取證與驗證設計</span></div>
+      </div>
+    </div></header>
+    <section class="numbers" aria-label="具體規模與成果"><div class="wrap">
+      <div class="number-grid">
+        <div><div class="metric">49 <small>校</small></div><p>歷年合作與服務的<br>師資培育大學網絡</p></div>
+        <div><div class="metric">70.21<small>%</small></div><p>115學年度甄選正式採用率<br>33／47校；107年為17.02%</p></div>
+        <div><div class="metric">293,894</div><p>累積施測人次<br>截至115年3月31日</p></div>
+        <div><div class="metric">70<small>+場</small></div><p>師資生實務情境培力<br>合作逾20所師培校</p></div>
+      </div>
+      <div class="data-note">數據口徑：49校為歷年合作與服務網絡，不等於115學年度採用校母體；115學年度採用校的教育學程核定名額合計占全國核定總名額87%，並非實際作答學生的比例。資料依TAA第九期執行統整（2026.08）。</div>
+    </div></section>
+    <section class="wrap section-intro" id="works">
+      <div class="eyebrow">SELECTED WORKS / 01—04</div>
+      <h2>四項工作，四種可以檢查的證據。</h2>
+      <p>以下依服務的成熟度與實作方式呈現：先看持續運作的全國性服務，再看實際教學現場與兩項研發原型。每項均說明本人責任、現有成果與使用界線。</p>
+    </section>
+    <section class="wrap cases" aria-label="代表案例">
+      <article class="case" id="taa">
+        <div class="case-visual"><a href="taa.webp" target="_blank" aria-label="放大閱讀TAA正式採用成果圖"><img src="taa.webp" alt="TAA採用率由107學年度17.02%至115學年度70.21%的成果畫面；資料涵蓋服務規模及核定名額覆蓋" width="1188" height="669"></a><p class="visual-hint">實際成果整理／點圖可放大閱讀</p></div>
+        <div class="case-text"><div class="case-eyebrow">01 / TAA · SERVICE ADOPTION <span class="status">長期正式運作</span></div><h3>讓教育測驗真正進入學校流程</h3>
+          <p>甄選採用並不是單次宣導。各校有不同的審查時程、決策程序與專業考量；從施測安排到結果理解，都需要讓測驗資訊對應到校方當下的工作。</p>
+          <div class="detail-grid">
+            <div class="detail-row"><span>本人工作</span><p>統籌年度規劃、教育部與全國師培校窗口，協調研究、資訊、行政與使用端；推進施測導入、報表導讀、校級分析及成果回饋。</p></div>
+            <div class="detail-row"><span>服務證據</span><p>115學年度33／47校正式採用；第九期五場推廣會議涉及30校、73位師長，15場團體導讀服務625名學生。</p></div>
+            <div class="detail-row"><span>延伸應用</span><p>協助兩所大學先行試作校務研究（IR）資料應用，提供研究問題與串接分析建議；成果由各校自行保有。</p></div>
+            <div class="detail-row"><span>證據界線</span><p>採用率增長為長期觀察結果，不代表單一措施的因果成效，也不等同個別使用者留存指標。</p></div>
+          </div>
+        </div>
+      </article>
+      <article class="case" id="teaching">
+        <div class="case-visual"><a href="teaching.webp" target="_blank" aria-label="放大閱讀國北教大講座案例畫面"><img src="teaching.webp" alt="國北教大融合教育實務情境講座的學習活動畫面及以提問引導判斷的設計" width="1188" height="669"></a><p class="visual-hint">2026.10.01國北教大授課設計／點圖可放大</p></div>
+        <div class="case-text"><div class="case-eyebrow">02 / LEARNING EXPERIENCE <span class="status">實際授課</span></div><h3>讓專業判斷成為可以參與的學習歷程</h3>
+          <p>講座不是先給一套處理標準，而是讓學習者面對資訊有限的教育情境，先形成判斷，再隨學生、同儕與教學脈絡逐步補充資訊。</p>
+          <div class="detail-grid">
+            <div class="detail-row"><span>設計方法</span><p>兩個逐步發展的融合教育案例，安排初始判讀、小組提問、資訊揭露、處理先後與協作支持的討論。</p></div>
+            <div class="detail-row"><span>本人工作</span><p>課程需求與問題界定、教材設計、互動安排及現場授課；與不同師資類科現場教師共構實務案例。</p></div>
+            <div class="detail-row"><span>實際證據</span><p>歷年辦理70餘場師資生情境課程、整體課程肯定度95%以上；此頁展示實際教學設計，不將課程評價當成學生學習成效。</p></div>
+          </div>
+        </div>
+      </article>
+      <article class="case" id="pace">
+        <div class="case-visual"><a href="pace.webp" target="_blank" aria-label="放大閱讀PACE對話和使用介面示例"><img src="pace.webp" alt="PACE Coach教育現場AI支持系統流程及合成對話示意，包含使用者輸入情境、角色辨識及支持回應" width="1188" height="669"></a><p class="visual-hint">合成情境與系統示意／非真實使用者紀錄</p></div>
+        <div class="case-text"><div class="case-eyebrow">03 / PACE COACH <span class="status">系統工程驗證階段</span></div><h3>在真實教育困境中提供有界線的支持</h3>
+          <p>為師資生、實習教師及初任教師設計的網頁對話式支持系統。使用者可直接描述事件、請求實務協助或進行情境練習；系統依角色、任務、風險及現場條件調整支持方式。</p>
+          <div class="detail-grid">
+            <div class="detail-row"><span>本人工作</span><p>自主發起並主導教育場域知識、角色與任務規則、互動節奏、安全邊界和跨版測試設計。</p></div>
+            <div class="detail-row"><span>已完成</span><p>近200筆模擬及系統測試紀錄；已修正高風險提醒、工作模式切換與成長整理的觸發時機。</p></div>
+            <div class="detail-row"><span>待驗證</span><p>真實目標使用者的理解、支持感受、使用負荷及角色界線適切性；尚不能宣稱已證明正式教育效果。</p></div>
+          </div>
+          <div class="inline-links"><a href="https://chat.smartreading.net/SRAgent/OpenWebUIChatSession3.aspx?topicId=9&amp;questId=1&amp;culture=zh-TW" target="_blank" rel="noopener noreferrer">前往PACE正式作品入口 ↗</a></div>
+        </div>
+      </article>
+      <article class="case" id="sjt">
+        <div class="case-visual"><a href="sjt.webp" target="_blank" aria-label="放大閱讀互動式SJT合成操作示例"><img src="sjt.webp" alt="互動式情境判斷評量原型合成示例，區分初始作答、原反應澄清及資訊介入後反應" width="1188" height="669"></a><p class="visual-hint">合成操作示例／不含正式題目、規則或評分依據</p></div>
+        <div class="case-text"><div class="case-eyebrow">04 / INTERACTIVE SJT <span class="status">可操作研究原型</span></div><h3>增加判斷歷程證據，不改變證據的意義</h3>
+          <p>原有固定選項情境判斷測驗能提供可比較的作答資訊；互動式原型則探索：如何透過連續情境、自由文字／初步語音與動態互動，觀察受測者如何形成及調整判斷。</p>
+          <div class="detail-grid">
+            <div class="detail-row"><span>設計關鍵</span><p>分存INITIAL自主作答、A原反應澄清與B資訊／支持介入後回應，不讓後續資訊覆蓋初始表現。</p></div>
+            <div class="detail-row"><span>本人工作</span><p>主導研發方向、互動與證據架構、原型規格、測試及跨專業驗證規劃；現有本地規則判讀與評分模擬。</p></div>
+            <div class="detail-row"><span>待驗證</span><p>內容承接、正式評分、語言與設備差異、動態路徑公平性及效度；現階段不以原型取代正式甄選工具。</p></div>
+          </div>
+        </div>
+      </article>
+    </section>
+    <section class="more" id="approach"><div class="wrap">
+      <div class="eyebrow">DECISIONS BEHIND THE WORK</div><h2>我關心的，是服務能否形成實際用途。</h2>
+      <div class="insights">
+        <div class="insight"><div class="n">01 / ADOPTION</div><h3>採用障礙不只是功能問題</h3><p>使用者是否認同價值、機構是否有共同任務、不同單位能否承接工作，以及投入成本是否可行，必須分開辨識。</p></div>
+        <div class="insight"><div class="n">02 / EXPERIENCE</div><h3>專業知識需要適當的使用形式</h3><p>報表、課程、對話支持與互動評量，面對的是不同的決策與學習目的；不能用相同輸出形式解決所有問題。</p></div>
+        <div class="insight"><div class="n">03 / EVIDENCE</div><h3>功能完成不等於成效成立</h3><p>長期服務採用、課程實施、內部測試與正式使用者驗證，各自支持不同結論；使用範圍應與證據成熟度一致。</p></div>
+      </div>
+    </div></section>
+    <section class="boundary" aria-label="資料與作品使用說明"><div class="wrap">
+      <strong>公開內容與使用界線</strong>
+      <p>本站為專業交流及作品導覽，採用指標依資料截止時間呈現。校務研究兩校之具體成果、正式情境判斷測驗題目與計分依據均未公開；PACE對話及SJT互動畫面為合成示例。TAA為正式運作服務，PACE與互動式SJT為不同階段的研發原型，並不代表已完成正式使用效益或心理計量驗證。課程簡報及相關研究資料的原始權利歸各自權利人所有。</p>
+    </div></section>
+  </main>
+  <footer id="contact"><div class="wrap"><div><strong>葉瑋琳</strong><p>教育服務採用 · 教師專業培力 · AI教育應用設計</p><p>資料整理截至2026.10.02</p></div><a href="mailto:wlyeh919@gmail.com">wlyeh919@gmail.com ↗</a></div></footer>
+</body>
+</html>
